@@ -1,0 +1,8 @@
+<!--pages/testdata/testdata.wxml-->
+<text>pages/testdata/testdata.wxml</text>
+
+<form>
+    <view>
+        {{result.msg}}
+    </view>
+</form>
