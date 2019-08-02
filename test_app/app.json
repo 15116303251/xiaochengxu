@@ -1,0 +1,42 @@
+{
+  "pages": [
+    "pages/goods/goods",
+    "pages/project/project",
+    "pages/book/book",
+    "pages/edit_appointment/edit_appointment",
+    "pages/product/product",
+    "pages/appointmentDetail/appointmentDetail",
+    "pages/appointments/appointments",
+    "pages/person/person",
+    "pages/detail/detail"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "selectedIconPath": "pages/images/main1.png",
+        "iconPath": "pages/images/main.png",
+        "pagePath": "pages/goods/goods",
+        "text": "首页"
+      },
+      {
+        "selectedIconPath": "pages/images/eye1.png",
+        "iconPath": "pages/images/eye.png",
+        "pagePath": "pages/product/product",
+        "text": "作品展示"
+      },
+      {
+        "selectedIconPath": "pages/images/person1.png",
+        "iconPath": "pages/images/person.png",
+        "pagePath": "pages/person/person",
+        "text": "会员"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}

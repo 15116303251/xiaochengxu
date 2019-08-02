@@ -1,0 +1,48 @@
+.parent{
+    background-color: 	rgb(255, 255, 255);
+}
+
+.childList{
+  margin: 10px 27px;
+  border-radius: 10px 10px 10px 10px;
+  background-color:	rgb(255, 255, 255);
+}
+
+.child{
+    margin-top: 10px;
+}
+
+.child_top{
+    display:flex;                    
+    justify-content: center;  
+    /* border-radius: 10px; */
+}
+
+.child_down{
+    display:flex;                    
+    justify-content: center; 
+    background-color:	#ffefd5;
+    height: 30px;
+    border-radius: 0px 0px 10px 10px
+}
+
+.child_image{
+    border-radius:10px 10px 0px 0px ;
+}
+
+.product_name{
+    font-size: 18px; 
+    margin-right: 20px;
+    margin-top:5px;
+}
+
+.product_name_label{
+    font-size:12px;
+    margin-top:15px;
+    margin-left:15px;
+}
+
+.author_name{
+    font-size:12px;
+    margin-top:15px;
+}

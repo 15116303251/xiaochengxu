@@ -1,0 +1,48 @@
+
+<view class="parent">
+  
+  <view class="childList">
+
+      <view class="child">
+          <view class="child_top">
+              <image class="child_image" src="/pages/images/1afaf2d036a558918ff77719c8e7a7f5.jpg"></image>
+          </view>
+
+          <view class="child_down">
+              <text class="product_name">未来的周冬雨 </text>
+              <label class="product_name_label">作者：</label><text class="author_name">小生</text>
+          </view>
+      </view>
+
+
+
+
+       <view class="child">
+          <view class="child_top">
+              <image class="child_image" src="/pages/images/1afaf2d036a558918ff77719c8e7a7f5.jpg"></image>
+          </view>
+
+          <view class="child_down">
+              <text class="product_name">未来的周冬雨 </text>
+              <label class="product_name_label">作者：</label><text class="author_name">小生</text>
+          </view>
+      </view>
+
+
+
+
+       <view class="child">
+          <view class="child_top">
+              <image class="child_image" src="/pages/images/1afaf2d036a558918ff77719c8e7a7f5.jpg"></image>
+          </view>
+
+          <view class="child_down">
+              <text class="product_name">未来的周冬雨 </text>
+              <label class="product_name_label">作者：</label><text class="author_name">小生</text>
+          </view>
+      </view>
+
+        
+  </view>
+
+</view>

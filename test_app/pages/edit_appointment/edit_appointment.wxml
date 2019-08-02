@@ -1,0 +1,89 @@
+
+
+<view>
+
+  <!-- 个人信息 -->
+  <!-- <view class="boss bg_color2">
+    <view class='iv_boss'>
+       <image class="boss_image" src="/pages/images/1afaf2d036a558918ff77719c8e7a7f5.jpg"></image>
+    </view>
+
+    <view class='iv_text'>
+        <text class="boss_text" space="ensp">昵称：新@青春 \n</text>
+        <text class="boss_text" space="ensp">年龄：23 \n</text>
+        <text class="boss_text">性别：男</text>
+    </view> 
+  </view> -->
+
+    <!-- 当前预约信息 -->
+  <!--时间-->
+  <!-- <view class="item_people_number">
+    <text  class="tv_key">时间</text>
+    <view class="item_date">
+      <view class="section">
+        <view class="tv_eee">预约日期</view>
+        <picker class="picker_date" mode="date" value="{{appointmentDate}}" start="2015-09-01" end="2017-09-01" bindchange="bindDateChange">
+          <view class="picker">
+             {{appointmentDate}}
+          </view>
+        </picker>
+      </view>
+      <view class="divider"></view>
+      <view class="section">
+        <view class="tv_eee">预约时间</view>
+        <picker class="picker_time" mode="time" value="{{appointmentTime}}" start="09:01" end="21:01" bindchange="bindTimeChange">
+          <view class="picker">
+            {{appointmentTime}}
+          </view>
+        </picker>
+      </view>
+    </view>
+    
+  </view> -->
+  <!--预约项目-->
+  <view class="item_people_number">
+    <!-- <text class="tv_key">项目</text>
+    <view class="barber_container" >
+      <view wx:if="{{showBarber}}" bindtap="btnClickAddGood" class='barber'>
+        <view class="barber_left">
+          <image bindtap="btnClickAddGood" class="iv_barber" src='/assets/img/ic_p6.jpg'></image>
+          <text class='tv_barber_name'>{{barber.name}}</text>
+        </view>
+        <view class="barber_right">
+          <text>¥{{barber.price}}</text>
+          <icon class="iv_right iconfont icon-youjiantou"></icon>
+        </view>
+      </view>
+      <view wx:else="{{showBarber}}">
+        <image bindtap="btnClickAddGood" class="iv_add" src='/assets/img/ic_add.svg'></image>
+      </view>
+    </view> -->
+      <view class="item_top bg_color3">
+          <view class="top_left">
+              <text class="tv_name">{{item.name}}</text>
+              <text class="tv_price">剪发价¥{{item.price}}</text>
+          </view>
+          <view><text class="tv_price">描述：{{item.description}}</text></view>
+      </view>
+
+    <!-- 中部 -->
+      <view class="item_center">
+          <view  wx:for="{{item.skills}}">
+              <text class="btn_option">{{item}}</text>
+              <!-- <text class="btn_option">{{item.skills[1]}}</text>
+              <text class="btn_option">{{item.skills[2]}}</text> -->
+          </view>
+      </view>
+
+  </view>
+
+  <!--备注-->
+  <view class="item_people_number">
+      <label class="tv_key">备注</label>
+      <textarea bindblur="bindTextAreaBlur" auto-height maxlength="200"/>
+  </view>
+
+  <!--预约提交-->
+  <button class="btn_appointment bg_color1" type="primary" loading="{{loading}}" 
+      bindtap="btnClickAppointment"> 预约 </button>
+</view>
